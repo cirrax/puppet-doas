@@ -1,1 +1,6 @@
 ---
+# module doas, common.yaml
+
+lookup:
+  doas::entries:
+    merge: 'hash'

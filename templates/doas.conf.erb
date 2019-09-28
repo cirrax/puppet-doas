@@ -1,0 +1,12 @@
+#
+# added by <%= @title %>
+<%= @action -%>
+ <%= @options.join(' ') -%>
+ <%- if @setenvs != [] -%>
+   setenv { <%= @setenvs.join(' ') %> }<% -%>
+ <%- end -%>
+ <%= @identity -%>
+ <%- if @as_target %> as <%= @as_target %><% end -%>
+ cmd <%= @command -%>
+ args <%= @args.join() %>
+ 

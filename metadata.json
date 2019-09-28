@@ -1,15 +1,27 @@
 {
-  "name": "cirrax-runas",
-  "version": "0.1.0",
+  "name": "cirrax-doas",
+  "version": "0.0.0",
   "author": "Cirrax GmbH",
-  "summary": "",
+  "summary": "configure doas on OpenBSD (equivalent of sudo)",
   "license": "GPL-3.0",
-  "source": "",
+  "source": "https://github.com/cirrax/puppet-doas",
+  "project_page": "https://github.com/cirrax/puppet-doas",
+  "issues_url": "https://github.com/cirrax/puppet-doas/issues",
   "dependencies": [
-
+    {
+      "name": "puppetlabs/concat",
+      "version_requirement": ">=2.6.0 < 5.0.0"
+    }
   ],
   "operatingsystem_support": [
-
+    {
+      "operatingsystem": "OpenBSD",
+      "operatingsystemrelease": [
+        "6.3",
+        "6.4",
+        "6.5"
+      ]
+    }
   ],
   "requirements": [
     {
