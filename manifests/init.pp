@@ -2,6 +2,9 @@
 #
 # define doas config on OpenBSD
 #
+# @param configfile
+#  the configuration file to put the entries in
+#
 # @param entries
 #  entries to append to the doas.conf file
 #
