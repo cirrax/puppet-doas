@@ -7,6 +7,7 @@
 #
 # @param entries
 #  entries to append to the doas.conf file
+#  this parameter has lookup_options set to hash !!
 #
 # @param owner
 #  owner of $configfile
