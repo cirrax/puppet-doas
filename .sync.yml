@@ -3,5 +3,5 @@
   simplecov: true
 
 spec/spec_helper.rb:
+  mock_with: ':rspec'
   coverage_report: true
-
