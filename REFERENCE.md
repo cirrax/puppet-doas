@@ -42,6 +42,7 @@ Default value: '/etc/doas.conf'
 Data type: `Hash`
 
 entries to append to the doas.conf file
+this parameter has lookup_options set to hash !!
 
 Default value: {}
 
@@ -120,7 +121,7 @@ command as.
 
 Data type: `String`
 
-
+the command to run
 
 ##### `target`
 
@@ -128,15 +129,17 @@ Data type: `String`
 
 target to  append the configuration
 
-##### `setenvs`
+##### `args`
 
 Data type: `Array`
 
-
+needed arguments
+Hint: to allow command only without arguments, set to ['']!
+the default allows any arguments
 
 Default value: []
 
-##### `args`
+##### `setenvs`
 
 Data type: `Array`
 

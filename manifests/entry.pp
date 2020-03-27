@@ -12,8 +12,13 @@
 #   The target user the running user is allowed to run the
 #   command as.
 # @param command
+#   the command to run
 # @param target
-#  target to  append the configuration
+#   target to  append the configuration
+# @param args
+#   needed arguments
+#   Hint: to allow command only without arguments, set to ['']!
+#   the default allows any arguments
 #
 define doas::entry (
   String                $target,
