@@ -9,6 +9,6 @@
  <%- if @as_target %> as <%= @as_target %><% end -%>
  cmd <%= @command -%>
  <%- if @args != [] -%>
- args <%= @args.join() %>
+ args <%= @args.join(' ') %>
  <%- end -%>
  
