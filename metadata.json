@@ -10,7 +10,7 @@
   "dependencies": [
     {
       "name": "puppetlabs/concat",
-      "version_requirement": ">=2.6.0 < 5.0.0"
+      "version_requirement": ">=2.6.0 < 7.0.0"
     }
   ],
   "operatingsystem_support": [
@@ -19,14 +19,17 @@
       "operatingsystemrelease": [
         "6.3",
         "6.4",
-        "6.5"
+        "6.5",
+        "6.6",
+        "6.7",
+        "6.8"
       ]
     }
   ],
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 4.10.0 < 7.0.0"
+      "version_requirement": ">= 4.10.0 < 8.0.0"
     }
   ],
   "pdk-version": "1.18.1",
