@@ -1,6 +1,6 @@
 {
   "name": "cirrax-doas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Cirrax GmbH",
   "summary": "configure doas on OpenBSD (equivalent of sudo)",
   "license": "GPL-3.0",
