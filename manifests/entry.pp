@@ -15,6 +15,9 @@
 #   the command to run
 # @param target
 #   target to  append the configuration
+# @param setenvs
+#   environment vars to set
+#   
 # @param args
 #   needed arguments
 #   Hint: to allow command only without arguments, set to ['']!
