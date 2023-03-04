@@ -15,6 +15,9 @@
 #   the command to run
 # @param target
 #   target to  append the configuration
+# @param setenvs
+#   environment vars to set
+#   
 # @param args
 #   needed arguments
 #   Hint: to allow command only without arguments, set to ['']!
@@ -31,8 +34,7 @@ define doas::entry (
   Array                 $setenvs = [],
   Array                 $args    = [],
 ) {
-
-  concat::fragment{"doas entry: ${title}":
+  concat::fragment { "doas entry: ${title}":
     target  => $target,
     content => template('doas/doas.conf.erb'),
     order   => $order,

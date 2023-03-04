@@ -26,15 +26,14 @@ class doas (
   String $owner      = 'root',
   String $group      = 'wheel',
   String $mode       = '0555',
-){
-
-  concat{ $configfile:
+) {
+  concat { $configfile:
     owner => $owner,
     group => $group,
     mode  => $mode,
   }
 
-  concat::fragment{ 'doas header':
+  concat::fragment { 'doas header':
     target  => $configfile,
     content => '# configured with puppet',
     order   => '00',
