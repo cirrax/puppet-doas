@@ -31,8 +31,7 @@ define doas::entry (
   Array                 $setenvs = [],
   Array                 $args    = [],
 ) {
-
-  concat::fragment{"doas entry: ${title}":
+  concat::fragment { "doas entry: ${title}":
     target  => $target,
     content => template('doas/doas.conf.erb'),
     order   => $order,
