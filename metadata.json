@@ -1,6 +1,6 @@
 {
   "name": "cirrax-doas",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Cirrax GmbH",
   "summary": "configure doas on OpenBSD (equivalent of sudo)",
   "license": "GPL-3.0",
@@ -32,7 +32,7 @@
       "version_requirement": ">= 4.10.0 < 8.0.0"
     }
   ],
-  "pdk-version": "2.6.1",
-  "template-url": "pdk-default#2.7.1",
-  "template-ref": "tags/2.7.1-0-g9a16c87"
+  "pdk-version": "2.7.1",
+  "template-url": "pdk-default#2.7.4",
+  "template-ref": "tags/2.7.4-0-g58edf57"
 }
