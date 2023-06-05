@@ -28,9 +28,10 @@ class doas (
   String $mode       = '0555',
 ) {
   concat { $configfile:
-    owner => $owner,
-    group => $group,
-    mode  => $mode,
+    owner        => $owner,
+    group        => $group,
+    mode         => $mode,
+    validate_cmd => '/usr/bin/doas -C %',
   }
 
   concat::fragment { 'doas header':
