@@ -75,7 +75,7 @@ Data type: `String`
 
 mode of $configfile
 
-Default value: `'0555'`
+Default value: `'0600'`
 
 ## Defined types
 

@@ -11,7 +11,7 @@ describe 'doas' do
         is_expected.to contain_concat('/etc/doas.conf')
           .with_owner('root')
           .with_group('wheel')
-          .with_mode('0555')
+          .with_mode('0600')
       }
       it {
         is_expected.to contain_concat__fragment('doas header')
