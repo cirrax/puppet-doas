@@ -5,10 +5,3 @@
 spec/spec_helper.rb:
   mock_with: ':rspec'
   coverage_report: true
-
-Gemfile:
-  required:
-    ':development':
-      - gem: 'puppet-blacksmith'
-      - gem: 'github_changelog_generator'
-
