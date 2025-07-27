@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 
 describe 'doas::entry' do
@@ -7,7 +9,7 @@ describe 'doas::entry' do
       target: '/etc/doas.conf',
       identity: 'someone',
       as_target: 'root',
-      command:  '/bin/false',
+      command: '/bin/false',
     }
   end
 
@@ -16,6 +18,7 @@ describe 'doas::entry' do
       let(:facts) { os_facts }
 
       it { is_expected.to compile }
+
       it {
         is_expected.to contain_concat__fragment('doas entry: namevar')
           .with_target('/etc/doas.conf')
