@@ -1,10 +1,5 @@
 # doas puppet module
 
-[![Build Status](https://travis-ci.org/cirrax/puppet-doas.svg?branch=master)](https://travis-ci.org/cirrax/puppet-doas)
-[![Puppet Forge](https://img.shields.io/puppetforge/v/cirrax/doas.svg?style=flat-square)](https://forge.puppetlabs.com/cirrax/doas)
-[![Puppet Forge](https://img.shields.io/puppetforge/dt/cirrax/doas.svg?style=flat-square)](https://forge.puppet.com/cirrax/doas)
-[![Puppet Forge](https://img.shields.io/puppetforge/e/cirrax/doas.svg?style=flat-square)](https://forge.puppet.com/cirrax/doas)
-[![Puppet Forge](https://img.shields.io/puppetforge/f/cirrax/doas.svg?style=flat-square)](https://forge.puppet.com/cirrax/doas)
 [![Coverage Status](https://coveralls.io/repos/github/cirrax/puppet-doas/badge.svg)](https://coveralls.io/github/cirrax/puppet-doas)
 
 
