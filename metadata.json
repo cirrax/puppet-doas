@@ -21,23 +21,17 @@
     {
       "operatingsystem": "OpenBSD",
       "operatingsystemrelease": [
-        "6.3",
-        "6.4",
-        "6.9",
-        "7.0",
-        "7.1",
-        "7.2",
-        "7.3"
+        "7.4",
+        "7.5",
+        "7.6",
+        "7.7"
       ]
     }
   ],
   "requirements": [
     {
-      "name": "puppet",
+      "name": "openvox",
       "version_requirement": ">= 4.10.0 < 9.0.0"
     }
-  ],
-  "pdk-version": "3.4.0",
-  "template-url": "https://github.com/puppetlabs/pdk-templates#main",
-  "template-ref": "tags/3.4.0.2-0-gd5f5ac1"
+  ]
 }

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 
 describe 'doas' do
@@ -13,6 +15,7 @@ describe 'doas' do
           .with_group('wheel')
           .with_mode('0555')
       }
+
       it {
         is_expected.to contain_concat__fragment('doas header')
           .with_target('/etc/doas.conf')
