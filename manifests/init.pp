@@ -25,7 +25,7 @@ class doas (
   Hash   $entries    = {},
   String $owner      = 'root',
   String $group      = 'wheel',
-  String $mode       = '0555',
+  String $mode       = '0600',
 ) {
   concat { $configfile:
     owner        => $owner,
